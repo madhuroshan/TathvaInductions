@@ -38,3 +38,34 @@ body {
   align-items: left;
   grid-gap: 1em;
 }
+
+.opening-links {
+  margin-top: 10px;
+}
+
+.opening-image {
+  margin-top: 5em;
+  width: 100%;
+  height: 300px;
+  background-image: url(./images/fe222d8788419f353b1a413cb98b1a29\ 1.jpg);
+  background-repeat: round;
+}
+
+.section-one {
+  margin-top: 6em;
+
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.stat {
+  display: grid;
+  place-items: left;
+  place-content: left;
+}
+
+.stats-box {
+  display: grid;
+  grid-gap: 1.2em;
+  place-items: left;
+}
