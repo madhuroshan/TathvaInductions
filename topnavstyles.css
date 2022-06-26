@@ -1,21 +1,7 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: DM Sans, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-.container {
-  width: 85%;
-  margin: auto;
-}
-
 .topnav {
   padding-top: 1.25em;
+  display: grid;
+  grid-template-columns: 1fr auto;
 }
 .logo {
   height: 50px;
@@ -30,4 +16,11 @@ body {
 h2 {
   font-weight: 300;
   letter-spacing: 0px;
+}
+
+.topnav-links {
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0.8em;
 }
