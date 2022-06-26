@@ -16,3 +16,11 @@ h2 {
   color: #818b9e;
   margin-top: 0;
 }
+
+.opening-image {
+  margin-top: 6em;
+  width: 100%;
+  height: 600px;
+  background-image: url(./images/fe222d8788419f353b1a413cb98b1a29\ 1.jpg);
+  background-repeat: round;
+}
