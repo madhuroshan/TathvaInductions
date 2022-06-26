@@ -30,5 +30,11 @@ body {
   display: grid;
   place-items: center;
   grid-template-columns: auto auto auto;
-  grid-gap: 0.8em;
+  grid-gap: 1.25em;
+}
+
+.opening {
+  display: grid;
+  align-items: left;
+  grid-gap: 1em;
 }
