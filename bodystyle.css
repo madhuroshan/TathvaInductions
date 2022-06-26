@@ -13,3 +13,22 @@ body {
   width: 80%;
   margin: auto;
 }
+
+.topnav {
+  padding-top: 1.25em;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  gap: 10px;
+}
+
+.topnav-links {
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0.8em;
+}
