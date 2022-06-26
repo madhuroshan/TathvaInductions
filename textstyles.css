@@ -1,5 +1,4 @@
 .logo-name {
-  font-weight: 300;
   letter-spacing: 0px;
   font-size: 22px;
 }
@@ -11,13 +10,15 @@ p {
   margin: 0;
 }
 
+h1 {
+  font-size: 3.5em;
+}
+
 p {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .opening-head {
-  font-size: 3em;
-  font-weight: 400;
   margin-top: 0.5em;
 }
 
@@ -34,9 +35,13 @@ p {
 }
 
 .stat-number {
-  font-size: 3em;
+  font-weight: bold;
 }
 
 .stat-info {
   font-size: 13px;
+}
+
+.review-heading {
+  color: white;
 }
