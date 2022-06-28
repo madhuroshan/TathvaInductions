@@ -46,7 +46,12 @@ a {
   grid-gap: 10px;
 }
 
-.copyrights > a {
+.copyrights-links > a {
   color: #818b9e;
   font-size: 0.7em;
+}
+
+.copyrights-links {
+  display: grid;
+  grid-template-columns: 100px 100px;
 }

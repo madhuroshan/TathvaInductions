@@ -184,7 +184,8 @@ button:hover {
 
 .footer-logo {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-gap: 1em;
 }
 
 .seperation {
@@ -196,8 +197,10 @@ button:hover {
 }
 
 .copyrights {
+  width: 90%;
+  margin: auto;
   margin-top: 2em;
   display: grid;
-  grid-template-columns: 1fr auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   grid-gap: 1.2em;
 }
