@@ -46,8 +46,19 @@ p {
 
 .review-heading {
   color: white;
+  padding-bottom: 0.5em;
 }
 
 .work ~ p {
   font-weight: 800;
+}
+
+.name {
+  color: white;
+}
+
+.review-text {
+  color: #818b9e;
+  margin-top: 1em;
+  line-height: 1.65em;
 }
