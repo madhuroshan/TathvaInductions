@@ -177,3 +177,8 @@ button:hover {
   margin-top: 6em;
   padding-bottom: 5em;
 }
+
+.footer {
+  background-color: #f1f4fa;
+  padding-top: 3em;
+}
