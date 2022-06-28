@@ -180,5 +180,10 @@ button:hover {
 
 .footer {
   background-color: #f1f4fa;
-  padding-top: 3em;
+  padding-top: 3.5em;
+}
+
+.footer-logo {
+  display: grid;
+  grid-template-columns: 1fr auto;
 }

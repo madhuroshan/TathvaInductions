@@ -33,3 +33,15 @@ a {
   background-color: black;
   padding: 0.75em 1em;
 }
+
+.footer-links > a {
+  font-size: 13px;
+  color: #818b9e;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 20px 20px 20px;
+  grid-gap: 10px;
+}
