@@ -61,3 +61,13 @@ p {
   margin-top: 1em;
   line-height: 1.65em;
 }
+
+.question {
+  font-size: 19px;
+}
+.answer {
+  font-size: 13px;
+  width: 80%;
+  line-height: 1.65em;
+  color: #818b9e;
+}
