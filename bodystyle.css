@@ -54,9 +54,7 @@ button:hover {
 .opening-image {
   margin-top: 5em;
   width: 100%;
-  height: 350px;
-  background-image: url(./images/fe222d8788419f353b1a413cb98b1a29\ 1.jpg);
-  background-repeat: round;
+  height: auto;
 }
 
 .section-one {
@@ -104,21 +102,9 @@ button:hover {
   height: 300px;
   width: auto;
 }
-.img-one {
-  background-image: url(./images/work1.jpg);
-}
-
-.img-two {
-  background-image: url(./images/work2.jpg);
-}
-
-.img-three {
-  background-image: url(./images/work3.jpg);
-  column-span: 1/3;
-}
-
-.img-four {
-  background-image: url(./images/work4.jpg);
+.work {
+  width: 100%;
+  height: auto;
 }
 
 .work-grid {
