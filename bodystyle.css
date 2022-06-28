@@ -181,9 +181,25 @@ button:hover {
 .footer {
   background-color: #f1f4fa;
   padding-top: 3.5em;
+  padding-bottom: 2em;
 }
 
 .footer-logo {
   display: grid;
   grid-template-columns: 1fr auto;
+}
+
+.seperation {
+  height: 0;
+  width: 80%;
+  border: 1px solid #e1e5ee;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.copyrights {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  grid-gap: 1.2em;
 }

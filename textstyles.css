@@ -71,3 +71,8 @@ p {
   line-height: 1.65em;
   color: #818b9e;
 }
+
+.copyrights > p {
+  color: #b6bfd1;
+  font-size: 0.7em;
+}
