@@ -1,6 +1,7 @@
 const logoTwo = document.querySelector(".topnav-two");
 const menuButton = document.querySelector(".menu-button");
 const logoOne = document.querySelector(".topnav");
+const workGrid = document.querySelector(".work-grid");
 let screenWidth = window.matchMedia("(max-width:500px)");
 
 screenWidth.addListener(function (screenWidth) {
