@@ -77,6 +77,15 @@ p {
   font-size: 0.7em;
 }
 
+.menu-button,
+.close-button {
+  color: azure;
+}
+
+.logo-two {
+  color: white;
+}
+
 @media screen and (max-width: 600px) {
   p {
     font-size: 14px;
