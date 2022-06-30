@@ -1,5 +1,8 @@
 /* This file is to adjust positions and margins of different sections */
-
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 3em;
+}
 *,
 *::after,
 *::before {
@@ -155,8 +158,7 @@ button:hover {
 
 .work-grid {
   display: flex;
-  width: 80%;
-  flex-direction: row;
+
   flex-wrap: wrap;
 }
 
@@ -240,5 +242,5 @@ button:hover {
 .topnav-two {
   background-color: black;
   padding-top: 0.75em;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.6em;
 }
