@@ -5,6 +5,7 @@ const workGrid = document.querySelector(".work-grid");
 let screenWidth = window.matchMedia("(max-width:500px)");
 const topnavMenu = document.querySelector(".topnav-links-two");
 const topnavMenuClose = document.querySelector(".close-button");
+
 screenWidth.addListener(function (screenWidth) {
   if (screenWidth.matches) {
     logoTwo.style.display = "grid";
