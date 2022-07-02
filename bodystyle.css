@@ -125,49 +125,49 @@ button:hover {
   flex-direction: row;
   place-items: center;
 }
+.work-grid {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  padding: 1em;
+  margin: auto;
+}
+
+.works {
+  width: 90%;
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+
+.one {
+  flex-grow: 2;
+}
+
+.two {
+  flex-grow: 3;
+}
+
+.three {
+  flex-grow: 3;
+}
+
+.four {
+  flex-grow: 2;
+}
 
 .work {
-  background-repeat: round;
-  height: 300px;
-  width: auto;
-}
-.img-one {
-  background-image: url(./images/work1.jpg);
+  margin: 1em;
 }
 
-.img-two {
-  background-image: url(./images/work2.jpg);
+img {
+  object-fit: cover;
 }
 
-.img-three {
-  background-image: url(./images/work3.jpg);
-}
-
-.img-four {
-  background-image: url(./images/work4.jpg);
-}
-
-/* .work-grid {
-  width: 75%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
-  grid-gap: 1.5em;
-} */
-
-/* .work-grid {
-  display: flex;
-
-  flex-wrap: wrap;
-} */
-
-.cell-two {
-  grid-column: 2/-1;
-}
-
-.cell-three {
-  grid-column: 1/3;
+@media screen and (max-width: 600px) {
+  .work-grid {
+    display: block;
+  }
 }
 
 .stars {
