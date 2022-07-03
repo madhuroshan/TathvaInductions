@@ -63,6 +63,8 @@ a {
   background-color: black;
   animation: topnavMenu 300ms ease-in-out 1;
   transform-origin: top;
+
+  display: none;
 }
 
 .topnav-links-two {

@@ -9,16 +9,6 @@ const secondAnswerText = document.querySelector(".second-ans");
 const topnavMenu = document.querySelector(".topnav-links-two");
 const topnavMenuClose = document.querySelector(".close-button");
 
-const textButtonRotate = [
-  { transform: "rotate(0)" },
-  { transform: "rotate(180deg)" },
-];
-
-const textButtonRotateOptions = {
-  duration: 200,
-  iterations: 1,
-};
-
 menuButton.addEventListener("click", function () {
   if ((topnavMenu.style.display = "none")) {
     topnavMenu.style.display = "flex";
@@ -48,6 +38,7 @@ openFirstAnswerText.addEventListener("click", function () {
 });
 
 openSecondAnswerText.addEventListener("click", function () {
+  textShowButtonTwo.animate(textButtonRotate, textButtonRotateOptions);
   if (secondAnswerText.style.display == "block") {
     secondAnswerText.style.display = "none";
   } else {

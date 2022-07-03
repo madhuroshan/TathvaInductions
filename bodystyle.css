@@ -253,6 +253,25 @@ img {
   border: 0;
 }
 
+.topnav-links-two {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  animation: topnavMenu 300ms ease-in-out 1;
+  transform-origin: top;
+  display: none;
+}
+
+.topnav-links-two {
+  display: none;
+}
+
+.topnav-link-two {
+  color: #ffffff;
+  padding: 1em 1.5em;
+}
+
 @media screen and (max-width: 500px) {
   .menu-button {
     display: block;
@@ -265,4 +284,8 @@ img {
   .topnav-two {
     display: grid;
   }
+}
+
+* {
+  animation: fadeIn 500ms ease-in-out 1;
 }
