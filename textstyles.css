@@ -72,10 +72,12 @@ p {
   flex-grow: 1;
 }
 .answer {
-  font-size: 13px;
+  font-size: 14px;
   width: 80%;
   line-height: 1.65em;
   color: #818b9e;
+  animation: slideInTop 200ms ease-in-out 1;
+  transform-origin: top;
 }
 
 .copyrights > p {
@@ -90,6 +92,15 @@ p {
 
 .logo-two {
   color: white;
+}
+
+@keyframes slideInTop {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
 }
 
 @media screen and (max-width: 600px) {
