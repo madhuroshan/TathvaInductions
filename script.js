@@ -2,7 +2,8 @@ const logoTwo = document.querySelector(".topnav-two");
 const menuButton = document.querySelector(".menu-button");
 const logoOne = document.querySelector(".topnav");
 const workGrid = document.querySelector(".work-grid");
-
+const openAnswerText = document.querySelector(".show-text");
+const answerText = document.querySelector(".answer");
 const topnavMenu = document.querySelector(".topnav-links-two");
 const topnavMenuClose = document.querySelector(".close-button");
 
@@ -23,5 +24,13 @@ topnavMenuClose.addEventListener("click", function () {
     menuButton.style.display = "block";
   } else {
     topnavMenu.style.display = "flex";
+  }
+});
+
+openAnswerText.addEventListener("click", function () {
+  if ((answerText.style.display = "block")) {
+    answerText.style.display = "none";
+  } else {
+    answerText.style.display = "block";
   }
 });

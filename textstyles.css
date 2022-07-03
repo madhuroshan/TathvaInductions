@@ -62,8 +62,14 @@ p {
   line-height: 1.65em;
 }
 
+.question-block {
+  display: flex;
+  place-items: center;
+  width: 80%;
+}
 .question {
   font-size: 19px;
+  flex-grow: 1;
 }
 .answer {
   font-size: 13px;
@@ -121,5 +127,30 @@ p {
 
   .faq-heading {
     font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .question-block {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .question-block {
+    width: 80%;
+    flex-grow: 0;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .question-block {
+    width: 60%;
+    flex-grow: 0;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .question-block {
+    width: 50%;
+    flex-grow: 0;
   }
 }
