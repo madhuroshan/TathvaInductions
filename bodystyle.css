@@ -131,10 +131,12 @@ button:hover {
   display: flex;
   padding: 1em;
   margin: auto;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .works {
-  width: 90%;
+  width: 95%;
   display: grid;
   place-items: center;
   margin: auto;
@@ -167,6 +169,7 @@ img {
 @media screen and (max-width: 600px) {
   .work-grid {
     display: block;
+    width: 90%;
   }
 }
 
@@ -219,7 +222,7 @@ img {
 .footer-logo {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-  grid-gap: 1em;
+  grid-gap: 2em;
 }
 
 .seperation {
@@ -243,4 +246,18 @@ img {
   background-color: black;
   padding-top: 0.75em;
   padding-bottom: 0.6em;
+}
+
+@media screen and (max-width: 500px) {
+  .menu-button {
+    display: block;
+  }
+
+  .topnav {
+    display: none;
+  }
+
+  .topnav-two {
+    display: grid;
+  }
 }

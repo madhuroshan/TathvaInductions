@@ -110,4 +110,16 @@ p {
   .question {
     font-size: 15px;
   }
+
+  .works-header {
+    font-size: 0.75em;
+  }
+
+  .review-heading {
+    font-size: 2.5em;
+  }
+
+  .faq-heading {
+    font-size: 2.5em;
+  }
 }
