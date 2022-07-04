@@ -38,7 +38,6 @@ openFirstAnswerText.addEventListener("click", function () {
 });
 
 openSecondAnswerText.addEventListener("click", function () {
-  textShowButtonTwo.animate(textButtonRotate, textButtonRotateOptions);
   if (secondAnswerText.style.display == "block") {
     secondAnswerText.style.display = "none";
   } else {
